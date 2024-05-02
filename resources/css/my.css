@@ -1,0 +1,186 @@
+body {
+    font-family: "Madimi One";
+}
+
+.navbar {
+    background: sienna;
+}
+
+.nav-link,
+.navbar-brand {
+    color: blanchedalmond;
+}
+
+.header-custom {
+    background: linear-gradient(#000000a6, transparent), url(https://citynews-today.stgy.ovh/~media/horizontal-hi/32642367108072/volontari-canile-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1,
+h2 {
+    color: blanchedalmond;
+}
+
+.container {
+    position: relative;
+
+}
+
+.content {
+    position: absolute;
+    background: rgba(160, 69, 16, 0.555);
+    color: #f1f1f1;
+    width: 55%;
+    left: 0px;
+    height: 100%;
+    border-top-right-radius: 500px;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.cimg {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+
+.containerbg {
+    background-color: rgb(165, 74, 22);
+}
+
+.bg-img {
+    background-image: url("https://cdn.britannica.com/07/234207-050-0037B589/English-bulldog-dog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-create {
+    background-color: rgb(204, 98, 11);
+    border: 5px blanchedalmond double;
+    border-radius: 10px;
+}
+@media screen and (max-width:480px){
+    .cimg {
+        width: 310px;
+        height: 310px;
+        border-radius: 50%;
+        background-size: cover;
+    }
+    .container-create{
+        width: 100%;
+        margin: 0% !important;
+        background-size: cover;
+    }
+    .colonna{
+        flex-direction: column;
+        
+    }
+    .bgdescription {
+        width: 100% !important;
+        height: 100% !important;
+}
+}
+
+input[type=text],
+input[type=number],
+input[type=file] {
+    width: 100%;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: blanchedalmond;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=file]:focus {
+    background-color: white;
+    outline: none;
+}
+
+.btn-create {
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    padding: 16px 20px;
+    border: 2px black solid;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+
+}
+
+.cardcustom {
+    background: rgb(185, 92, 15);
+    border: 10px double antiquewhite;
+    width: 300px;
+    height: 480px;
+}
+
+.card-title {
+    color: rgb(0, 0, 0);
+}
+
+.cardbodycustom {
+    background-color: antiquewhite;
+}
+
+.card-title {
+    font-size: 30px;
+    font-family: "Montserrat";
+}
+
+.btninfo {
+    top: 50%;
+    background-color: #cc6c11;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+
+.btnedit {
+    top: 50%;
+    background-color: #27d417;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+}
+
+.btnremove {
+    margin-left: 50px;
+    background-color: #cc1111;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    padding: 6px 12px;
+    margin: 8px 0px 0px;
+    width: 100%;
+}
+
+.categorylink {
+    color: #000000;
+    font-size: 20px;
+}
+
+.custom-footer {
+    background-color: #cc6c11;
+}
+
+.bgdescription {
+    background-color: blanchedalmond;
+    border: 10px double rgb(185, 92, 15);
+    
+    width: 600px;
+    height: 480px;
+}
